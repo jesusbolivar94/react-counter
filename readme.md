@@ -3,3 +3,5 @@
 * Counter
 * Tailwindcss
 * Hooks
+* Jest
+* Vite
