@@ -26,6 +26,7 @@ export const CounterApp = ( { value } ) => {
                     -1
                 </button>
                 <button type="button"
+                        aria-label="btn-reset"
                         onClick={ handleReset }
                         className="text-stone-700 hover:text-white border border-stone-600 hover:bg-stone-500 focus:ring-4 focus:outline-none focus:ring-stone-300 font-medium rounded-lg text-xs px-3 py-2 text-center mr-2 mb-2 dark:border-stone-500 dark:text-stone-500 dark:hover:text-white dark:hover:bg-stone-600 dark:focus:ring-stone-800">
                     Reset
